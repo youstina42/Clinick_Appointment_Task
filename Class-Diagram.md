@@ -33,5 +33,5 @@ classDiagram
     Patient "1" *-- "0..1" MedicalRecord : owns
 
     %% Rule class
-    note for AppointmentLimit "A patient has at most N upcoming Appointments (max N rule)"
+    note for AppointmentLimit "A patient has at most N upcoming Appointments (max N rule). Team decision: N = 3."
 ```
